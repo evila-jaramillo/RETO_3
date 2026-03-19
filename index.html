@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Ropa Fashion</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scrip.js"></script>
+</head>
+<body>
+
+<body>
+
+<header>
+
+<h1>Fashion Store</h1>      
+</div>
+
+<div id="carrito-panel" class="carrito-oculto">
+    <h3>Carrito de Compras</h3>
+    <ul id="lista-carrito"></ul>
+    <p>Total: $<span id="total">0</span></p>
+    <button onclick="realizarPago()">Pagar</button>
+</div>
+<div class="carrito-icono" onclick="toggleCarrito()">
+    🛒 Carrito (<span id="contador">0</span>)
+</div>
+<br>
+
+<nav>
+    <br>
+<a href="#">Inicio</a>
+<a href="#">Hombre</a>
+<a href="#">Mujer</a>
+<a href="#">Niños</a>
+<a href="#contacto">Contacto</a>
+</nav>
+
+
+</header>
+
+
+<section class="productos">
+
+<div class="producto">
+
+
+
+<h3>Camiseta Hombre</h3>
+<img src="https://static.rfstat.com/mockup-maker/mockups/3966/a8a1ede84d03cebb2c4bc10cc2601242.webp" alt="">
+<p>$50 </p> 
+<button onclick="agregarAlCarrito('Camiseta Hombre', 50)">Agregar al carrito</button>
+
+
+</div>
+
+
+<div class="producto">
+
+
+
+<h3>Vestido Mujer</h3>
+<img src="https://www.flashy.com.co/cdn/shop/files/vestido-largo-con-abertura-enfrente-y-drapeado-en-cintura-mujer-flashy-niza15_grande.jpg?v=1765393296" alt="">
+<p>$150</p>
+<button onclick="agregarAlCarrito('Vestido Mujer', 150)">Agregar al carrito</button>
+
+
+</div>
+
+
+<div class="producto">
+
+
+
+<h3>Chaqueta Niño</h3>
+<img src="https://down-co.img.susercontent.com/file/9e0d3d372a4b95798500ceff4578bec8" alt="">
+<p>$80</p>
+<button onclick="agregarAlCarrito('Chaqueta Niño', 80)">Agregar al carrito</button>
+
+
+</div>
+
+
+<div class="producto">
+
+
+
+<h3>Pantalón Jeans</h3>
+<img src="https://pantalonesdemezclilla.mx/cdn/shop/files/regular-baggy-jeans-desgastados-azul-mujer_2_1_1c773888-bf4a-481e-8b54-bf9fe6b44662.jpg?v=1764956508&width=1445" alt="">
+<p>$50</p>
+<button onclick="agregarAlCarrito('Pantalón Jeans', 50)">Agregar al carrito</button>
+
+
+</div>
+
+</section>
+
+    <section class="nosotros">
+
+        <h2>Sobre Nuestra Tienda</h2>
+        
+        <p>
+        Somos una tienda online dedicada a ofrecer ropa moderna para hombres,
+        mujeres y niños. Nos enfocamos en brindar calidad, estilo y comodidad
+        para que cada cliente encuentre su look perfecto.
+        </p>
+        
+        <section class="banner">
+            <h2>Nueva Colección 2026</h2>
+            <p>Descubre las últimas tendencias</p>
+            <button>Comprar Ahora</button>
+            </section>
+        </section>
+        <section id="contacto" class="contacto">
+
+            <h2>Síguenos en nuestras redes</h2>
+            
+            <div class="redes">
+            
+            <a href="#">📘 Facebook</a>
+            <a href="#">📷 Instagram</a>
+            <a href="#">🐦 Twitter</a>
+            <a href="#">🎵 TikTok</a>
+            
+            </div>
+            
+            </section>
+            <footer>
+
+                <p>© 2026 Tienda Fashion Store</p>
+                
+                </footer>
+                <script>
+function toggleCarrito() {
+    const panel = document.getElementById("carrito-panel");
+    panel.classList.toggle("carrito-oculto");
+}
+
+</script>
+</body>
+</html>
+</body>
+</html>
